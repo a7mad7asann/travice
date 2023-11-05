@@ -14,38 +14,47 @@
   </head>
 
   <body>
+    <!---------------------navbar----------------------->
     <nav class="navbar">
      <div class="fst">
       <div class="rth">
-          <img src="assets/images/icon/location-dot-solid.svg" 
-          loading="lazy">
+        <a href="https://www.google.com/maps/place/%D9%85%D8%B5%D8%B1%E2%80%AD/@26.8073733,36.1711988,6z/data=!4m6!3m5!1s0x14368976c35c36e9:0x2c45a00925c4c444!8m2!3d26.820553!4d30.802498!16zL20vMDJrNTQ?entry=ttu" class="location">
+            <img src="assets/images/icon/location-dot-solid.svg" 
+             loading="lazy">
 
-        <p>
-          99 Roving St. Big Cite PKU2345 
-        </p>
-
-        <img src="assets/images/icon/phone-solid.svg" 
-        loading="lazy">
+             <p>
+              99 Roving St. Big Cite PKU2345 
+              </p>
+        </a>
+        
+        <a href="tel:+1234567890" class="phone">
+          <img src="assets/images/icon/phone-solid.svg" 
+           loading="lazy">
        
-        <p>
-          For Emergancy : +123-456-7890
-        </p>
+           <p>
+            For Emergancy : +123-456-7890
+          </p>
+        </a>
       </div>
 
       <div class="lft">
-        <img src="assets/images/icon/percent-solid (1).svg" 
-        loading="lazy">
+        <a href="discount.html" class="discount-rate">
+          <img src="assets/images/icon/percent-solid (1).svg" 
+          loading="lazy">
 
-        <p>
-          Discount 25% for every servic 
-        </p>
-
-        <img src="assets/images/icon/clock-solid.svg" 
-        loading="lazy">
+          <p>
+           Discount 25% for every servic 
+          </p>
+        </a>
         
-        <p>
-          08.00Am - 17.00PM
-        </p>
+        <a  href="#" id="myLink" class="clock">
+          <img src="assets/images/icon/clock-solid.svg" 
+          loading="lazy">
+          
+          <p>
+            08.00Am - 17.00PM
+          </p>
+        </a>
       </div>
      </div>
 
@@ -59,28 +68,36 @@
 
           <ul class="navbar-nav ">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a  href="index.html"  class="nav-link">
                 homepage
               </a>
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="about-us.html" class="nav-link">
                 about us
               </a>
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="services.html" class="nav-link">
                 <div class="dropdown">
                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     services
                   </button>
 
                   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else</button>
+                    <button class="dropdown-item" type="button">
+                      diagonstic test
+                    </button>
+                    
+                    <button class="dropdown-item" type="button">
+                      engine servicing
+                    </button>
+                    
+                    <button class="dropdown-item" type="button">
+                      oil changing
+                    </button>
                   </div>
                 </div>
               </a>
@@ -95,16 +112,24 @@
                   </button>
 
                   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else </button>
+                    <button class="dropdown-item" type="button">
+                      booking
+                    </button>
+                    
+                    <button class="dropdown-item" type="button">
+                     technicians
+                    </button>
+                    
+                    <button class="dropdown-item" type="button">
+                      testimonials
+                    </button>
                   </div>
                 </div>
               </a>
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="contact-us.html" class="nav-link">
                 contact us
               </a>
             </li>
@@ -112,7 +137,7 @@
 
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="#" class="nav-img">
+              <a href="https://www.facebook.com/" class="nav-img">
                 <img src="assets/images/icon/facebook.svg" 
                 loading="lazy"
                 alt="">
@@ -120,7 +145,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="work.html" class=" nav-img">
+              <a href="https://twitter.com/" class=" nav-img">
                 <img src="assets/images/icon/twitter.svg" 
                 loading="lazy"
                 alt="">
@@ -128,7 +153,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="service.html" class="nav-img">
+              <a href="https://www.youtube.com/" class="nav-img">
                 <img src="assets/images/icon/youtube.svg" 
                 loading="lazy"
                 alt="">
@@ -140,6 +165,7 @@
     </nav>
 
     <main>
+     <!---------------------header----------------------->
       <header class="header ">
         <div class="container">
           <div class="contain">
@@ -167,22 +193,26 @@
               </p>
 
               <div class="bottn">
-                <button class="btn btn-primary" type="submit">
+                <button class="botn" type="submit">
                   MAKE APPOINTMENT
                 </button>
+              
+                <button class="botn">
+                  <a href="services.html">
+                    read more
 
-                <div class="btn-group dropright">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropright
-                  </button>
-                </div>
-                
-            </div>
+                    <img src="assets/images/icon/arrow-right-solid.svg" 
+                    loading="lazy"
+                    alt="">
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </header>
 
+      <!---------------------who------------------------->
       <section class="who">
         <div class="container card-container">
           <div class="row">
@@ -190,7 +220,7 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">
-                    Special title treatment
+                    expertise & professional
                   </h5>
 
                   <p class="card-text">
@@ -206,7 +236,7 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">
-                    Special title treatment
+                    24/7 ready support
                   </h5>
 
                   <p class="card-text">
@@ -222,7 +252,7 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">
-                    Special title treatment
+                    free consulting
                   </h5>
 
                   <p class="card-text">
@@ -291,20 +321,21 @@
             </div>
         </div>
 
-        <div class="btn-foot">
-          <button type="button" class="btn">
+        <div class="bottn">
+          <button class="botn" type="submit">
             read more
           </button>
+        
+          <button class="botn ">
+            <a href="tel:+1234567890">
+              <img src="assets/images/icon/phone-solid.svg" 
+              loading="lazy"
+              alt="">
 
-          <button type="button" class="btn-call">
-            <img src="assets/images/icon/phone-solid.svg" 
-            loading="lazy"
-            alt="">
-
-            +123-456-7890
+              +123-456-7890
+            </a>
           </button>
         </div>
-
        </div>
 
        <div class="rht">
@@ -336,16 +367,21 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
 
-          <button type="submit" class="btn">
-            <img src="assets/images/icon/telegram.svg"
-            loading="lazy">
-            REQUEST A SERVICE
+          <button class="botn ">
+              <a href="tel:+1234567890">
+                <img src="assets/images/icon/telegram.svg"
+               loading="lazy">
+             
+               REQUEST A SERVICE
+              </a>
           </button>
+        
         </form>
        </div>
       </div>
       </section>
 
+      <!---------------------servicse-------------------->
       <section class="services">
         <div class="contain">
           <p class="intro">
@@ -387,16 +423,22 @@
                   </div>
 
                   <h5 class="card-title">
-                    Card title
+                    exterior detailing
                   </h5>
                   
                   <p class="card-text">
                     Some quick example text to build on the card title and make up the bulk of the card's content.
                   </p>
                   
-                  <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropright
+                  <div class="bottn">
+                    <button class="botn">
+                      <a href="services.html">
+                        read more
+    
+                        <img src="assets/images/icon/arrow-right-solid.svg" 
+                        loading="lazy"
+                        alt="">
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -417,16 +459,22 @@
                   </div>
                   
                   <h5 class="card-title">
-                    Card title
+                    interior detaling
                   </h5>
                   
                   <p class="card-text">
                     Some quick example text to build on the card title and make up the bulk of the card's content.
                   </p>
                   
-                  <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropright
+                  <div class="bottn">
+                    <button class="botn">
+                      <a href="services.html">
+                        read more
+    
+                        <img src="assets/images/icon/arrow-right-solid.svg" 
+                        loading="lazy"
+                        alt="">
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -447,16 +495,22 @@
                   </div>
                   
                   <h5 class="card-title">
-                    Card title
+                   paint correction
                   </h5>
                   
                   <p class="card-text">
                     Some quick example text to build on the card title and make up the bulk of the card's content.
                   </p>
                   
-                  <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropright
+                  <div class="bottn">
+                    <button class="botn">
+                      <a href="services.html">
+                        read more
+    
+                        <img src="assets/images/icon/arrow-right-solid.svg"
+                        loading="lazy"
+                        alt="">
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -471,20 +525,28 @@
 
                 <div class="card-body">
                   <div class="icon-bk">
-                    <img src="assets/images/icon/screwdriver-wrench-solid.svg" alt="">
+                    <img src="assets/images/icon/screwdriver-wrench-solid.svg" 
+                    loading="lazy">
+                    alt="">
                   </div>
                   
                   <h5 class="card-title">
-                    Card title
-                  </h5>
+                   engine diagonstic & repair
+                  </h5> 
                   
                   <p class="card-text">
                     Some quick example text to build on the card title and make up the bulk of the card's content.
                   </p>
                   
-                  <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropright
+                  <div class="bottn">
+                    <button class="botn">
+                      <a href="services.html">
+                        read more
+    
+                        <img src="assets/images/icon/arrow-right-solid.svg"
+                        loading="lazy"
+                        alt="">
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -505,16 +567,22 @@
                   </div>
                   
                   <h5 class="card-title">
-                    Card title
+                    elctrical system repairs
                   </h5>
                   
                   <p class="card-text">
                     Some quick example text to build on the card title and make up the bulk of the card's content.
                   </p>
                   
-                  <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropright
+                  <div class="bottn">
+                    <button class="botn">
+                      <a href="services.html">
+                        read more
+    
+                        <img src="assets/images/icon/arrow-right-solid.svg" 
+                        loading="lazy"
+                        alt="">
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -535,16 +603,22 @@
                   </div>
                   
                   <h5 class="card-title">
-                    Card title
+                    suspension & brake services
                   </h5>
                   
                   <p class="card-text">
                     Some quick example text to build on the card title and make up the bulk of the card's content.
                   </p>
                   
-                  <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropright
+                  <div class="bottn">
+                    <button class="botn">
+                      <a href="services.html">
+                        read more
+    
+                        <img src="assets/images/icon/arrow-right-solid.svg" 
+                        loading="lazy"
+                        alt="">
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -554,6 +628,7 @@
         </div>
       </section>
 
+      <!---------------------counter---------------------->
       <section class="counter">
         <div class="container">
           <div class="rth">
@@ -594,6 +669,7 @@
         </div>
       </section>
 
+      <!---------------------choose----------------------->
       <section class="choose">
         <div class="container">
           <div class="middle">
@@ -695,6 +771,7 @@
         </div>
       </section>
 
+      <!---------------------testimonials----------------->
       <section class="testimonials">
         <div class="container">
           <p class="intro">
@@ -748,12 +825,14 @@
             </div>
 
             <div class="ltf">
-              <img src="assets/images/about/car-man.webp" alt="">
+              <img src="assets/images/about/car-man.webp" 
+              loading="lazy">
             </div>
           </div>
         </div>
       </section>
 
+      <!---------------------questions--------------------->
       <section class="ques">
         <div class="container">
           <div class="contain">
@@ -777,9 +856,17 @@
                 enim amet minus ad impedit.
               </p>
 
-              <button class="btn" type="submit">
-               ask us anything
-              </button>
+              <div class="bottn">
+                <button class="botn">
+                  <a href="services.html">
+                    read more
+
+                    <img src="assets/images/icon/arrow-right-solid.svg" 
+                    loading="lazy"
+                    alt="">
+                  </a>
+                </button>
+              </div>
             </div>
  
             <div class="ltf">
@@ -831,12 +918,45 @@
                     </div>
                   </div>
                 </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        how long does it take to detail a car ?
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        how long does it take to detail a car ?
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!---------------------discount----------------------->
       <section class="discount"> 
         <div class="container">
           <h1>
@@ -850,12 +970,18 @@
             </span>
           </h1>
 
-          <button class="btn" type="submit">
-            make an appointment now
-           </button>
+          <div class="bottn">
+            <button class="botn" type="submit">
+              <a href="discount.html">
+                make appointment now
+              </a>
+            </button>
+          </div>
+         </div>
         </div>
       </section>
 
+      <!---------------------contact------------------------>
       <section class="contact">
         <div class="container">
           <div class="rth">
@@ -907,6 +1033,7 @@
                   placeholder="your subject here">
                 </div>
                 </div>
+
                 <div class="form-group">
                   <label for="exampleFormControlTextarea1">
                     Message :
@@ -942,32 +1069,34 @@
                     our address
                   </h4>
 
-                  <div class="icon-box">
-                    <div class="img-bc">
-                      <img src="assets/images/icon/location-dot-solid.svg" 
-                      loading="lazy"
-                      alt="">
-                    </div>
-
-                    <div class="text">
-                      <p>
-                        Lorem ipsum dolor sit amet.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="icon-box">
-                    <div class="img-bc">
-                      <img src="assets/images/icon/sms-solid.svg" 
-                      loading="lazy"
-                      alt="">
-                    </div>
-
-                    <div class="text">
-                      <p>
-                        Lorem ipsum dolor sit amet.
-                      </p>
-                    </div>
+                  <div class="icon-content">
+                    <a href="https://www.google.com/maps/place/%D9%85%D8%B5%D8%B1%E2%80%AD/@26.8073733,36.1711988,6z/data=!4m6!3m5!1s0x14368976c35c36e9:0x2c45a00925c4c444!8m2!3d26.820553!4d30.802498!16zL20vMDJrNTQ?entry=ttu" class="icon-box">
+                      <div class="img-bc">
+                        <img src="assets/images/icon/location-dot-solid.svg" 
+                        loading="lazy"
+                        alt="">
+                      </div>
+  
+                      <div class="text">
+                        <p>
+                          99 Roving St. Big Cite PKU2345                     
+                        </p>
+                      </div>
+                    </a>
+  
+                    <a href="https://www.gmail.com" class="icon-box">
+                      <div class="img-bc">
+                        <img src="assets/images/icon/sms-solid.svg" 
+                        loading="lazy"
+                        alt="">
+                      </div>
+  
+                      <div class="text">
+                        <p>
+                          hello@awesome.come 
+                        </p>
+                      </div>
+                    </a>
                   </div>
                 </div>
 
@@ -976,7 +1105,8 @@
                     our address
                   </h4>
 
-                  <div class="icon-box">
+                 <div class="icon-content">
+                  <a href="tel: +123-456-7890" class="icon-box">
                     <div class="img-bc">
                       <img src="assets/images/icon/phone-solid.svg" 
                       loading="lazy"
@@ -985,41 +1115,43 @@
 
                     <div class="text">
                       <p>
-                        Lorem ipsum dolor sit amet.
+                        +123-456-7890
                       </p>
                     </div>
-                  </div>
+                  </a>
 
-                  <div class="icon-box">
-                    <div class="img-bk">
+                  <div class="icon-boc">
+                    <a href="https:www.facebook.com" class="img-bk">
                       <img src="assets/images/icon/facebook.svg" 
                       loading="lazy"
                       alt="">
-                    </div>
+                    </a>
 
-                    <div class="img-bk">
+                    <a href="https:www.twitter.com" class="img-bk">
                       <img src="assets/images/icon/twitter.svg" 
                       loading="lazy"
                       alt="">
-                    </div>
+                    </a>
 
-                    <div class="img-bk">
+                    <a href="https:www.youtube.com" class="img-bk">
                       <img src="assets/images/icon/youtube.svg" 
                       loading="lazy"
                       alt="">
-                    </div>
+                    </a>
                   </div>
+                 </div>
                 </div>
               </div>
 
               <div class="map">
-                <img src="assets/images/intro.webp" alt="">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7292976.581532109!2d36.1711988!3d26.8073733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14368976c35c36e9%3A0x2c45a00925c4c444!2z2YXYtdix!5e0!3m2!1sar!2seg!4v1699201135201!5m2!1sar!2seg" width="453" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!---------------------blog--------------------------->
       <section class="blog">
         <div class="container">
           <div class="row">
@@ -1151,6 +1283,7 @@
         </div>
       </section>
 
+      <!---------------------nav-footer--------------------->
       <section class="icon-footer">
         <div class="container">
           <div class="logo">
@@ -1169,23 +1302,23 @@
             </p>
   
             <div class="icon-container">
-              <div class="icon-box">
+              <a href="https:www.facebook.com" class="icon-box">
                 <img src="assets/images/icon/facebook.svg" 
                 loading="lazy"
                 alt="">
-              </div>
+              </a>
   
-              <div class="icon-box">
+              <a href="https:www.twitter.com" class="icon-box">
                 <img src="assets/images/icon/twitter.svg" 
                 loading="lazy"
                 alt="">
-              </div>
+              </a>
   
-              <div class="icon-box">
+              <a href="https:www.youtube.com" class="icon-box">
                 <img src="assets/images/icon/youtube.svg" 
                 loading="lazy"
                 alt="">
-              </div>
+              </a>
             </div>
           </div>
 
@@ -1194,29 +1327,29 @@
               services
             </h1>
 
-            <p>
-              Lorem, ipsum.
-            </p>
+            <a href="services.html">
+             exterior detailing
+            </a>
 
-            <p>
-              Lorem, ipsum.
-            </p>
+            <a href="services.html">
+              interior detailing
+             </a> 
+             
+             <a href="services.html">
+              paint correction
+             </a> 
+             
+             <a href="services.html">
+              engine diagonstics & repair
+             </a> 
+             
+             <a href="services.html">
+              elctronical system repairs 
+             </a>
 
-            <p>
-              Lorem, ipsum.
-            </p>
-
-            <p>
-              Lorem, ipsum.
-            </p>
-
-            <p>
-              Lorem, ipsum.
-            </p>
-
-            <p>
-              Lorem, ipsum.
-            </p>
+             <a href="services.html">
+              suspension & brake services
+             </a>
           </div>
 
           <div class="mail">
@@ -1225,7 +1358,7 @@
             </h1>
 
             <div class="icon-container">
-              <div class="icon-box">
+              <a href="https://ww.gmail.com" class="icon-box">
                 <div class="img-bc">
                   <img src="assets/images/icon/sms-solid.svg" 
                   loading="lazy"
@@ -1234,12 +1367,12 @@
 
                 <div class="text">
                   <p>
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                    hello@awesome.come                  
+                   </p>
                 </div>
-              </div>
+              </a>
 
-              <div class="icon-box">
+              <a href="tel:+123-456-7890" class="icon-box">
                 <div class="img-bc">
                   <img src="assets/images/icon/phone-solid.svg" 
                   loading="lazy"
@@ -1248,12 +1381,12 @@
 
                 <div class="text">
                   <p>
-                    Lorem ipsum dolor sit amet.
+                    tel:+123-456-7890
                   </p>
                 </div>
-              </div>
+              </a>
 
-              <div class="icon-box">
+              <a href="https://www.google.com/maps/place/%D9%85%D8%B5%D8%B1%E2%80%AD/@26.8073733,36.1711988,6z/data=!4m6!3m5!1s0x14368976c35c36e9:0x2c45a00925c4c444!8m2!3d26.820553!4d30.802498!16zL20vMDJrNTQ?entry=ttu" class="icon-box">
                 <div class="img-bc">
                   <img src="assets/images/icon/location-dot-solid.svg" 
                   loading="lazy"
@@ -1262,12 +1395,10 @@
 
                 <div class="text">
                   <p>
-                    Lorem ipsum dolor sit amet.
+                    99 Roving St. Big Cite PKU2345                     
                   </p>
                 </div>
-              </div>
-
-              
+              </a>
             </div>
 
             <h3>
@@ -1275,11 +1406,11 @@
             </h3>
 
             <p>
-              Lorem, ipsum dolor.
+             08:00Am
             </p>
 
             <p>
-              Lorem, ipsum dolor.
+              17:00Pm
             </p>
           </div>
 
@@ -1311,12 +1442,16 @@
         </div>
       </section>
     </main>
-
+    
+    <!---------------------footer--------------------------->
     <footer>
       <div class="container">
         <div class="rhe">
           <p>
-            copyright 2023 @ ALL right reserved design by Ahmed Embaby
+            copyright 2023 @ ALL right reserved design by 
+            <a href="protofolio/protofolio.html">
+              Ahmed Embaby
+            </a>
           </p>
         </div>
   
@@ -1328,6 +1463,7 @@
       </div>
     </footer>
 
+    <!---------------------javascript-lib------------------>
     <script src="assets/js/lib/jquery4.js"></script>
     <script src="assets/js/lib/popper.js"></script>
     <script src="assets/js/lib/bootstrap.js"></script>
